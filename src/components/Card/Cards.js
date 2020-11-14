@@ -5,41 +5,41 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>View our featured projects:</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='#'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src='/images/project1.jpg'
+              text='Explore modern beauty of this project'
+              label='Large'
+              path='/contact'
             />
             <CardItem
-              src='#'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src='/images/project2.jpg'
+              text='Explore the uniqueness of this project'
+              label='Large'
+              path='/contact'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='#'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src='/images/project3.jpg'
+              text='Explore the unique feel this project beings'
+              label='Large'
+              path='/contact'
             />
             <CardItem
-              src='#'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src='/images/project4.png'
+              text='Experience the open feeling of this project'
+              label='Large'
+              path='/contact'
             />
             <CardItem
-              src='#'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src='/images/project5.jpg'
+              text='Explore the quirks of this project'
+              label='Large'
+              path='/contact'
             />
           </ul>
         </div>
