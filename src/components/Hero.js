@@ -5,15 +5,15 @@ import './hero.scss'
 function Hero() {
     return (
         <div className="hero-container">
-            <h1>The islands are calling.</h1>
-            <p>Will you answer?</p>
-            <div className="hero-btns">
+            <h1>CNSTRCT </h1>
+            <p>Done. Faster.</p>
+            <div className="hero-btns" >
                 <Button className='btns' buttonStyle='btn--outline'
-                buttonSize='btn--large'>LEARN MORE</Button>
+                buttonSize='btn--large' >TALK WITH US</Button>
             </div>
             <div className="hero-btns">
                 <Button className='btns' buttonStyle='btn--primary'
-                buttonSize='btn--large'>VISUALIZE PARADISE <i className="far fa-play-circle"></i></Button>
+                buttonSize='btn--large' >OUR PROJECTS<i className="fas fa-toolbox"></i></Button>
             </div>
         </div>
     )
